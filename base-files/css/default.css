@@ -2,16 +2,12 @@
   --white: #fff;
   --black: #000;
   --font-color-base: #666;
-  --font-color-dark: #212529;
+  --font-color-dark: #3b444b;
   --font-color-light: #b0aebe;
-  --font-color-ocean: #57A6FF;
-  --footer: #34314b;
-  --footer-base: #2e2b45;
-  --contrast:var(--font-color-light);
-  --success: #64ECF5;
-  --danger: #FF8B8D;
-  --grad-1: #a1ecff;
-  --grad-2: #7dbcff;
+  --font-color-ocean: #0070ff;
+  --font-color-money: #00fa9a;
+  --dark-navy: #1d2951;
+ 
 
   --size-10: 0.625rem;
   --size-14: 0.875rem;
@@ -53,7 +49,13 @@ ul {
   font-size: 0.8125rem;
 }
 
-a { text-decoration: none; }
+a { 
+  text-decoration: none;
+  color: var(--font-color-light);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: large;
+}
 p { margin-top: 0; }
 
 h2 {
@@ -75,4 +77,20 @@ img {
   padding-right: 15;
   margin-left: auto;
   margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 1.25rem;
+  transition: ease-in-out 0.3s;
+  padding: 13px 25px;
+  font-size: small;
+  font-family: 'Oswald' sans-serif;
+  font-weight: 600;
+  background-color: var(--font-color-ocean);
+  color: white
 }
