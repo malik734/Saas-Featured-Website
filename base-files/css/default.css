@@ -5,8 +5,9 @@
   --font-color-dark: #3b444b;
   --font-color-light: #b0aebe;
   --font-color-ocean: #0070ff;
-  --font-color-money: #00fa9a;
+  --font-color-money: #77dd77;
   --dark-navy: #1d2951;
+  --ghost: #f2f3f4;
  
 
   --size-10: 0.625rem;
@@ -19,6 +20,9 @@
   --size-50: 3.125rem;
   --size-100: 6.25rem;
   --size-150: 9.375rem;
+
+  --oswald: 'Oswald', sans-serif;
+  --rubik: 'Rubik', sans-serif;
 }
 
 
@@ -94,3 +98,12 @@ img {
   background-color: var(--font-color-ocean);
   color: white
 }
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: large;
+  color: black;
+}
+
+

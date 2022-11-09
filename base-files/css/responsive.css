@@ -1,0 +1,890 @@
+@media screen and (max-width: 768px) {
+
+  /* Top Nav-Bar and section below */
+
+  .nav-bar img {
+    width: 130px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .nav-bar {
+    display: block;
+    justify-content: center;
+  }
+  .nav-bar ul {
+    margin-left: 0px;
+  }
+  .grid-1-floating-logos h1 
+  .grid-1-floating-logos {
+    display: none;
+  }
+  .grid-six {
+   margin-top: 300px;
+   margin-left: -600px;
+   width: 700px;
+  }
+  .container.footer {
+    display: flex;
+    text-align: center;
+  }
+  .footer h1 {
+    margin-left: 200px;
+    margin-top: -20px;
+  }
+  .footer p {
+    margin-left: 220px;
+  }
+  .btn.play {
+    margin-top: 170px;
+    margin-left: -340px;
+    padding: 10px 10px;
+  }
+
+  /*  Benefits Section and cards */
+
+  .cards {
+    height: 280px;
+    width: 340px;
+  }
+  .container .cards p {
+    width: 100%;
+  }
+  .benefits.benefit {
+    margin-left: 40px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .flexOne {
+    flex-direction: column;
+  }
+  .flex .cards {
+    width: 350px; 
+    margin: 10px 10px 0px;
+  }
+  .flexOne .cards {
+    margin: 0px;
+    width: 350px;
+    margin: 10px 0 0;
+  }
+  .container.one {
+    margin-top: 400px;
+  }
+
+  /* Banner section 1 and "Why Front" */
+
+  .container.one {
+    display: block;
+  }
+  .content-left {
+    text-align: center;
+  }
+  .banner-1 {
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 30px;
+  }
+  .fat-list ul {
+    margin-left: -140px;
+    padding: 0 120px;
+  }
+  .banner-2 {
+    width: 100%;
+    margin-left: -50px;
+    margin-bottom: 120px;
+  }
+  .banner-2 i {
+    top: 150px;
+    left: 450px;
+  }
+
+  /* Hubspot Section and the Brands */
+  
+  .hubspot-section img {
+    width: 280px;
+    height: 400px;
+  }
+  .dots {
+    margin-left: 180px;
+    margin-bottom: -20px;
+  }
+  .woman-three {
+    position: relative;
+    margin-left: 260px;
+    margin-top: -430px;
+  }
+  .hubspot {
+    margin-left: -400px;
+  }
+  .hubspot img {
+    position: relative; 
+    bottom: -260px;
+    left: 160px;
+  }
+  .hubspot h5 {
+    width: 580px;
+    text-align: center;
+    margin-left: -90px;
+    margin-top: 100px;
+  }
+  .name-div {
+    margin-left: 150px;
+  }
+  .company-logos ul {
+    gap: 40px;
+    margin-top: 60px;
+  }
+  
+  /* Pricing Options Section */
+  .pricing-options .price-card {
+    width: 90%;
+    margin-left: 40px;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.3);
+  }
+  .pricing-options {
+    display: block;
+  }
+  .price-card h2 {
+    margin-left: 260px;
+  }
+  .price-card p {
+    width: 90%;
+  }
+  .price-card hr {
+    width: 98%;
+  }
+  .price-card button, .price-card h6 {
+    margin-left: 220px;
+  }
+  .pricing-flex {
+    margin-left: -500px;
+    margin-top: 550px;
+  }
+  .pricing-flex1 {
+    margin-left: -500px;
+  }
+
+  /* Hire Us Section */
+
+  .grid-four {
+    display: block;
+    height: 1080px;;
+  }
+  .panelOne {
+    display: flex;
+  }
+  .panelpartOne {
+    margin-top: -120px;
+  } 
+  .panelpartOne h2, .panelpartOne h4, .panelpartOne h5, .panelpartOne hr  {
+    width: 300px;
+    margin-left: -140px;
+    margin-bottom: 
+  } 
+  .panelpartOne br {
+   display: none;
+  }
+  .panelpartOne hr {
+    margin-left: -100px;
+    width: 350px;
+  }
+  .panelpartOne h4 {
+    margin-left: -90px;
+  }
+  .names {
+    margin-top: -100px;
+  }
+  .people {
+    display: flex;
+    margin-top: 0px;
+  }
+  .commercials {
+    width: 300px;
+    margin-top: 30px;
+  }
+  form {
+    width: 700px;
+    height: 700px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .hire-form input {
+    border: .5px solid darkgrey;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 15px;
+  }
+  .panelTwo select {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 5px;
+  }
+  .panelTwo textarea {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 635px;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    line-height: 18px;
+    box-sizing: border-box;
+  }
+  .checkbox input {
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 25px
+  }
+  .checkbox p {
+    color: grey;
+  }
+  .checkbox span {
+    margin-left: 50px;
+  }
+  .checkbox p, span {
+    margin-top: -50px;
+    margin-left: 60px;
+  }
+  label {
+    color: black;
+  }
+  label span {
+    text-decoration: underline dashed 1px;
+    text-underline-offset: 6px;
+    margin: auto;
+}
+.btn.get-started {
+  margin-left: 280px;
+  margin-top: 45px;
+}
+
+/*  Front Footer Section */
+
+.container.grid-five {
+  display: block;
+}
+.careerFlex {display: flex;}
+.companyFlex {
+  display: flex;
+  margin-left: 300px;
+  margin-top: -130px;
+}
+.resourceFlex {
+  display: flex;
+  margin-left: 300px;
+}
+.resourceFlex .resources {
+  margin-left: 0px;
+}
+.companyFlex .features {
+  margin-left: 50px;
+}
+footer hr {
+  margin-top: 20px;
+}
+
+.flex-one p { 
+  display: flex;
+  margin-top: 0px;
+  width: 100%;
+}
+.flex-two {
+  margin-left: -40px;
+}
+.flex-two select {
+  margin-left: -25px;
+  padding: 5px 10px;
+  background: lightsteelblue;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: -2px;
+}
+.flex-over {
+  display: flex;
+  margin-top: 40px;
+  gap: 50px;
+}
+.terms {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(57, 152, 184);
+}
+.flex-one a {
+  font-size: medium;
+  margin: 0px 7px;
+}
+.container.copy-right{
+  margin-top: 25px;
+  text-align: center;
+  max-width: 680px;
+}
+
+/* JavaScript Button */
+
+ .nav-bar ul {
+  max-height: 0;
+  overflow: hidden;
+  transform: translateX(0deg);
+  transition: all 0.5s;
+}
+.menu {
+  perspective: 800px;
+}
+[aria-controls="menu-list"] {
+  display: block;
+  position: relative;
+  left: 470px;
+  top: 20px;
+  width: 100px;
+}
+[aria-expanded="true"] ~ ul {
+  display: flex;
+  max-height: 700px;
+  transform: rotateX(0deg);
+  margin-left: -100px;
+  margin-top: 80px;
+  width: 550px;
+  height: 200px;
+  align-items: start;
+  position: relative;
+  left: 160px;
+}
+[aria-expanded="true"] ~ ul .btn.first {
+  position: relative;
+  top: 90px;
+  left: -280px;
+  width: 110px;
+  padding: 10px 8px;
+}
+[aria-expanded="false"] .close {
+  display: none;
+}
+[aria-expanded="true"] .close { 
+  display: inline-block;
+}
+[aria-expanded="true"] .open {
+  display: none;
+}
+ 
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+/* Top Nav-Bar and section below */
+   
+   
+   .nav-bar {
+      display: block;
+      justify-content: center;
+    }
+   .grid-1-floating-logos h1
+   .grid-1-floating-logos {
+      display: none;
+    }
+   .grid-six {
+     margin-top: 300px;
+     margin-left: -600px;
+     width: 700px;
+    }
+   .container.footer {
+      display: flex;
+      text-align: center;
+    }
+   .footer h1 {
+      margin-left: 0px;
+      margin-top: 20px;
+      width: 300px;
+    }
+   .footer p {
+      margin-left: 0px;
+      width: 300px;
+    }
+    .nav-bar img {
+      width: 120px;
+      margin-left: 45px;
+      margin-top: 20px;
+      position: relative;
+      left: 30px;
+
+    }
+   .btn.play {
+      margin-top: 220px;
+      margin-left: -300px;
+      padding: 12px 12px;
+    }
+    .btn.play span {
+      margin-left: 55px;
+    }
+    .grid-six {
+      display: grid;
+      grid-template-columns: 1.4fr .8fr .6fr 1fr;
+      grid-template-rows: 1.8fr 1.2fr 1fr;
+      grid-template-areas: 
+      "google atlassia . asana"
+      "paypal . weave ."
+      ". googles . calendar";
+      margin-bottom: 350px;
+      margin-left: -360px;
+      margin-top: 320px;
+    }
+  .grid-1-floating-logos .grid-six .google2 {
+    grid-area: "googles";
+    width: 50px;
+    align-self: center;
+  }
+  .grid-1-floating-logos .grid-six .google {
+    grid-area: "google";
+    grid-template-columns: 1 / 2;
+    grid-template-rows: 1 / 2;
+    width: 50px;
+    justify-self: center;
+    margin-left: -10px;
+  }
+  .calendar {
+    grid-area: "calendar";
+    grid-template-columns: 4 / 5;
+    grid-template-rows: 3 / 4;
+    align-self: flex-end
+  }
+    .container.grid-six img {
+      width: 65px;
+    }
+
+/*  Benefits Section and cards */
+
+  .keys {
+    position: relative;
+    top: -370px;
+    left: -10px;
+  }
+  .cards {
+    height: 280px;
+    width: 340px;
+  }
+  .container .cards p {
+    width: 100%;
+  }
+  .benefits.benefit {
+    margin-left: 40px;
+  }
+  .benefit {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex .cards {
+    width: 340px; 
+    margin-top: 10px;
+    margin-left: -5px;
+  }
+  .flexOne .cards {
+    margin: 0px;
+    width: 340px;
+    margin-top: 10px;
+    margin-left: -5px;
+  }
+  .container.one {
+    margin-top: 400px;
+  }
+
+/* Banner section 1 and "Why Front" */
+
+  .container.one {
+    display: block;
+    margin-top: 450px;
+  }
+  .content-left {
+    text-align: center;
+  }
+  .content-left h2 {
+    margin-left: -30px;
+  }
+  .content-left button {
+    margin-left: -50px;
+  }
+  .banner-1 {
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 30px;
+  }
+  .fat-list ul {
+    margin-left: -140px;
+    padding: 0 120px;
+  }
+  .banner-2 {
+    width: 100%;
+    margin-left: -90px;
+    margin-bottom: 120px;
+  }
+  .banner-2 i {
+    top: 90px;
+    left: 270px;
+    font-size: x-large;
+  }
+  .components {
+    margin-top: 70px;
+    margin-left: -10px;
+  }
+  .fat-list ul {
+    flex-direction: row;
+
+  }
+
+   /* Hubspot Section and the Brands */
+  
+   .hubspot-section img {
+    width: 260px;
+    height: 380px;
+  }
+  .dots {
+    margin-left: -40px;
+    margin-bottom: -80px;
+  }
+  .woman-three {
+    position: relative;
+    margin-left: 40px;
+    margin-top: -350px;
+  }
+  .hubspot {
+    margin-left: -400px;
+  }
+  .hubspot img {
+    position: relative; 
+    bottom: -230px;
+    left: 130px;
+  }
+  .hubspot h5 {
+    width: 350px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .name-div {
+    margin-left: 120px;
+  }
+  .company-logos h2 {
+    font-size: large;
+    margin-top: 50px;
+  }
+  .company-logos ul {
+    gap: 40px;
+    margin-top: 60px;
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+  .company-logos img {
+    width: 120px;
+  }
+
+
+  /* Pricing Options Section */
+
+  .pricing-options .price-card {
+    width: 90%;
+    margin-left: 20px;
+    height: 450px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.3);
+  }
+  .pricing-options {
+    display: block;
+  }
+  .price-card h2 {
+    margin-left: 100px;
+  }
+  .price-card p {
+    width: 90%;
+  }
+  .price-card hr {
+    width: 98%;
+  }
+  .price-card button, .price-card h6 {
+    margin-left: 40px;
+  }
+  .price-card button {
+    padding: 16px 30px;
+  }
+  .flex-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 530px;
+    margin-top: -580px;
+  }
+  .pricing-flex {
+    display: block;
+  }
+  .pricing-flex1 {
+    display: block;
+  }
+
+/* Hire Us Section */
+
+  .grid-four {
+    display: block;
+    height: 1080px;;
+  }
+  .panelOne {
+    display: block;
+  }
+  .panelpartOne {
+    margin-top: -120px;
+  } 
+  .panelpartOne h2, .panelpartOne h4, .panelpartOne h5, .panelpartOne hr  {
+    width: 300px;
+    margin-left: -140px;
+    margin-bottom: 
+  } 
+  .panelpartOne br {
+   display: none;
+  }
+  .panelpartOne hr {
+    margin-left: -100px;
+    width: 350px;
+  }
+  .panelpartOne h4 {
+    margin-left: -90px;
+  }
+  .panelpartTwo {
+    display: inline-block;
+  }
+  .panelpartTwo .names {
+    margin-left: -20px;
+  }
+  .panelpartTwo .commercials {
+    margin-left: -30px;
+  }
+  .panelpartTwo .people {
+    margin-left: -50px;
+  }
+  .names {
+    margin-top: 60px;
+  }
+  .people {
+    display: flex;
+    margin-top: 0px;
+    width: 80px;
+  }
+  .commercials {
+    width: 300px;
+    margin-top: 30px;
+  }
+  form {
+    width: 340px;
+    height: 1000px;
+    margin-left: -5px;
+    margin-top: 80px;
+  }
+  .hire-form {
+    height: 1600px;
+    width: 360px;
+  }
+  .hire-form input {
+    border: .5px solid darkgrey;
+    border-radius: 5px;
+    height: 50px;
+    width: 320px;
+    padding: 20px;
+    margin-left: -8px;
+  }
+  .panelTwo select {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 320px;
+    height: 50px;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: -8px;
+    padding: 5px;
+  }
+  .panelTwo textarea {
+    margin-left: -8px;
+    margin-top: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 320px;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    line-height: 18px;
+    box-sizing: border-box;
+  }
+  .checkbox input {
+    margin-left: -7px;
+    margin-top: -20px;
+    width: 25px
+  }
+  .checkbox p {
+    color: grey;
+  }
+  .checkbox span {
+    margin-left: 30px;
+  }
+  .checkbox p, span {
+    margin-top: -50px;
+    margin-left: 30px;
+  }
+  label {
+    color: black;
+  }
+  label span {
+    text-decoration: underline dashed 1px;
+    text-underline-offset: 6px;
+    margin: auto;
+}
+.viewOne {
+  margin-left: -20px;
+  font-size: small;
+}
+.viewTwo {
+ display: none;
+}
+.btn.get-started {
+  margin-left: 90px;
+  margin-top: 35px;
+}
+
+/*  Front Footer Section */
+
+.container.grid-five {
+  display: block;
+}
+.nav-bar {
+  text-align: center;
+  font-size: larger;
+}
+.nav-bar img {
+  margin-left: -40px;
+}
+.careerFlex {display: block;}
+.companyFlex {
+  display: inline-block;
+  text-align: center;
+  margin-left: -70px;
+  margin-top: 50px;
+}
+.resourceFlex {
+  display: inline-block;
+  margin-left: 0px;
+  text-align: center;
+  margin-left: 50px;
+}
+.resourceFlex .resources {
+  margin-left: -60px;
+  text-align: center;
+}
+.companyFlex .features {
+  margin-left: 50px;
+}
+.careerFlex span {
+  margin-left: 50px;
+}
+.company {line-height: 1.2; margin-left: 40px;}
+.features {line-height: 1.2;}
+.documents  { line-height: 1.2;}
+.resources {line-height: 1.2; margin-left: -40px}
+footer hr {
+  margin-top: 20px;
+}
+
+.flex-one p { 
+  display: flex;
+  margin-top: 0px;
+  width: 100%;
+}
+.flex-two {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+.flex-two select {
+  margin-left: -190px;
+  padding: 5px 10px;
+  background: lightsteelblue;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: 50px;
+  width: 160px;
+}
+.flex-over {
+  display: block;
+  margin-top: 40px;
+  gap: 50px;
+}
+.terms {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(57, 152, 184);
+}
+.flex-one a {
+  display: flex;
+  font-size: medium;
+  margin: 0px 2px;
+  width: 100%;
+}
+.container.copy-right{
+  margin-top: 25px;
+  text-align: center;
+  max-width: 350px;
+}
+
+  /* JavaScript Button */
+
+ .nav-bar ul {
+  max-height: 0;
+  overflow: hidden;
+  transform: translateX(0deg);
+  transition: all 0.5s;
+}
+.menu {
+  perspective: 300px;
+}
+[aria-controls="menu-list"] {
+  display: block;
+  position: relative;
+  left: 170px;
+  top: 20px;
+  width: 100px;
+}
+[aria-expanded="true"] ~ ul {
+  display: block;
+  max-height: 700px;
+  transform: rotateX(0deg);
+  margin-left: -170px;
+  margin-top: 100px;
+  width: 200px;
+  height: 350px;
+  align-items: start;
+}
+[aria-expanded="true"] ~ ul .btn.first {
+  position: relative;
+  top: 0px; 
+  left: 0px;
+  margin-top: 20px;
+  width: 110px;
+  padding: 10px 8px;
+}
+[aria-expanded="true"] ~ ul li {
+  margin-top: 20px;
+}
+[aria-expanded="false"] .close {
+  display: none;
+}
+[aria-expanded="true"] .close { 
+  display: inline-block;
+}
+[aria-expanded="true"] .open {
+  display: none;
+}
+
+
+
