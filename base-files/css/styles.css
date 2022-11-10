@@ -8,9 +8,10 @@
   margin-left: auto;
   margin-right: 65px;
   align-items: center;
-  margin-left: 510px;
+  margin-left: 410px;
   margin-top: 0px;
   gap: 40px;
+  max-width: 550px;
 }
 .nav-bar a {
   font-family: 'Oswald', sans-serif;
@@ -19,7 +20,8 @@
 }
 .nav-bar img {
   max-width: 150px;
-  margin-left: 15px;
+  margin-left: 25px;
+  margin-right: 300px;
   margin-top: 20px;
 }
 .nav-bar .features {
@@ -42,6 +44,7 @@
   font-weight: 400;
   box-shadow: -1px 1px 3px #0070ff;
   padding: 10px 12px;
+  min-width: 80px;
 }
 .grid-1-floating-logos {
   display: flex;
@@ -695,6 +698,10 @@ button [aria-controls="menu-list"] {
   [aria-expanded] .open {
     display: none;
   }
+  [aria-controls="menu-list"] {
+    display: block;
+  }
+  
 }
 
 

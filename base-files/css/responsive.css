@@ -343,7 +343,7 @@ footer hr {
 [aria-controls="menu-list"] {
   display: block;
   position: relative;
-  left: 470px;
+  left: 170px;
   top: 20px;
   width: 100px;
 }
@@ -851,7 +851,7 @@ footer hr {
 [aria-controls="menu-list"] {
   display: block;
   position: relative;
-  left: 170px;
+  left: -130px;
   top: 20px;
   width: 100px;
 }
